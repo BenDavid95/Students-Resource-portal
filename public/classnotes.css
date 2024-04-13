@@ -1,0 +1,101 @@
+/* Add your custom styles here */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    background-color: #f8f9fa; /* Match the existing theme background color */
+    font-family: Arial, sans-serif; /* Set font family */
+    color: #333; /* Set text color */
+  }
+  
+  header {
+    background-color: #343a40; /* Set header background color to match the existing theme */
+    padding: 20px 0; /* Add padding to the header */
+  }
+  
+  h1 {
+    color: #fff; /* Set heading color to white */
+    text-align: center; /* Center align heading */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align navigation */
+  }
+  
+  nav ul li {
+    display: inline; /* Display navigation items inline */
+    margin: 0 10px; /* Add margin to navigation items */
+  }
+  
+  nav ul li a {
+    color: #fff; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Add bold font weight */
+  }
+  
+  nav ul li a:hover {
+    color: #f8f9fa; /* Change text color on hover */
+  }
+  
+  main {
+    padding: 20px; /* Add padding to the main content */
+  }
+  
+  .content {
+    background-color: #fff; /* Set content background color to white */
+    padding: 20px; /* Add padding to the content */
+    border-radius: 5px; /* Add border radius to the content */
+  }
+  
+  h2 {
+    color: #343a40; /* Set heading color to match the existing theme */
+  }
+  
+  .buttons {
+    margin-bottom: 20px; /* Add bottom margin to buttons */
+  }
+  
+  .resource-form {
+    display: flex; /* Use flexbox for form elements */
+    align-items: center; /* Center align form elements vertically */
+  }
+  
+  label {
+    margin-right: 10px; /* Add right margin to labels */
+  }
+  
+  input[type="file"] {
+    padding: 5px; /* Add padding to file input */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff; /* Set button background color to vibrant blue */
+    color: #fff; /* Set button text color to white */
+    padding: 8px 20px; /* Add padding to button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  
+  .resource-list {
+    margin-top: 20px; /* Add top margin to resource list */
+  }
+  
+  footer {
+    background-color: #343a40; /* Set footer background color to match the existing theme */
+    padding: 20px 0; /* Add padding to footer */
+    text-align: center; /* Center align footer content */
+    color: #fff; /* Set footer text color to white */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+  

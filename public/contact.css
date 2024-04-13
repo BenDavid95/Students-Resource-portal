@@ -1,0 +1,68 @@
+/* Add your custom styles here */
+body {
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    margin: 0; /* Add to reset default margin */
+    font-family: Arial, sans-serif; /* Add a fallback font */
+    color: #fff; /* Set text color to white */
+  }
+  h1{
+    color: #ffffff;
+    text-align: center;
+}
+  header {
+    background-color: #000000; /* Add background color for the navigation bar */
+    padding: 20px 0; /* Add padding to the navigation bar */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  nav ul li {
+    display: inline; /* Display navigation items inline */
+    margin-right: 200px; /* Add spacing between navigation items */
+    margin-left: 200px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Set text color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Add bold font weight */
+  }
+  
+  nav ul li a:hover {
+    color: #061948; /* Change text color on hover */
+  }
+  
+  #contact {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  #contact .content {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #contact h2 {
+    color: #000; /* Set heading color to black */
+  }
+  
+  #contact p {
+    color: #333; /* Set paragraph text color to dark grey */
+    margin-bottom: 10px; /* Add bottom margin to paragraphs */
+  }
+  
+  footer {
+    background-color: #000; /* Add background color for the footer */
+    padding: 20px 0; /* Add padding to the footer */
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff; /* Set text color to white */
+  }

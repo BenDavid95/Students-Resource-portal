@@ -1,0 +1,83 @@
+/* Add your custom styles here */
+body {
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    margin: 0; /* Add to reset default margin */
+    font-family: Arial, sans-serif; /* Add a fallback font */
+  }
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+  header {
+    background-color: #000000; /* Add background color for the navigation bar */
+    padding: 20px 0; /* Add padding to the navigation bar */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  nav ul li {
+    display: inline; /* Display navigation items inline */
+    margin-right: 200px; /* Add spacing between navigation items */
+    margin-left: 200px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Set text color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Add bold font weight */
+  }
+  
+  nav ul li a:hover {
+    color: #061948; /* Change text color on hover */
+  }
+  
+  #hero {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #advantages {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .advantage {
+    flex-basis: 30%; /* Set flex basis for each advantage */
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s; /* Add transition for hover effect */
+    
+  }
+  
+  .advantage:hover {
+    transform: translateY(-10px); /* Move the div up on hover */
+    box-shadow: 5px 10px #000000;
+  }
+  
+  .advantage-content h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .advantage-content p {
+    color: #666;
+  }
+  
+  .advantage img {
+    max-width: 150px;
+    margin-top: 20px; /* Add margin to separate image from content */
+  }
+  
+  footer{
+    color: #fff;
+  }

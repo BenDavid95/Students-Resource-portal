@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subject 1 - Student Resource Portal</title>
+  <link rel="stylesheet" href="classnotes.css">
+</head>
+<body>
+  <header>
+    <h1>Student Resource Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resource.html">Resource</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="subject1">
+      <div class="content">
+        <h2>Data Science</h2>
+        <div class="buttons">
+          <form id="classnotes-form" class="resource-form" enctype="multipart/form-data">
+            <label for="classnotes">Class Notes:</label>
+            <input type="file" id="classnotes" name="classnotes" accept=".pdf,.doc,.docx">
+            <textarea id="notes-description" name="notes-description" placeholder="Enter notes description..."></textarea>
+            <input type="date" id="notes-date" name="notes-date">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="classnotes-list" class="resource-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Student Resource Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

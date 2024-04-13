@@ -1,0 +1,85 @@
+/* Add your custom styles here */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set font family */
+    background-color: #f8f9fa; /* Set background color */
+    color: #333; /* Set text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  header {
+    background-color: #343a40; /* Set header background color */
+    padding: 20px 0; /* Add padding to the header */
+  }
+  
+  h1 {
+    color: #fff; /* Set heading color to white */
+    text-align: center; /* Center align heading */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align navigation */
+  }
+  
+  nav ul li {
+    display: inline; /* Display navigation items inline */
+    margin: 0 10px; /* Add margin to navigation items */
+  }
+  
+  nav ul li a {
+    color: #fff; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Add bold font weight */
+  }
+  
+  nav ul li a:hover {
+    color: #f8f9fa; /* Change text color on hover */
+  }
+  
+  main {
+    padding: 20px; /* Add padding to the main content */
+  }
+  
+  .content {
+    background-color: #fff; /* Set content background color to white */
+    padding: 20px; /* Add padding to the content */
+    border-radius: 5px; /* Add border radius to the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow to the content */
+  }
+  
+  h2 {
+    color: #343a40; /* Set heading color */
+    text-align: center; /* Center align heading */
+  }
+  
+  .buttons {
+    display: flex; /* Use flexbox for button alignment */
+    justify-content: center; /* Center align buttons */
+    margin-top: 20px; /* Add top margin to buttons */
+  }
+  
+  .resource-button {
+    background-color: #007bff; /* Set button background color to vibrant blue */
+    color: #fff; /* Set button text color to white */
+    padding: 10px 20px; /* Add padding to button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to button */
+    margin: 0 10px; /* Add margin to buttons */
+    text-decoration: none; /* Remove underline from buttons */
+    transition: background-color 0.3s ease; /* Add transition for hover effect */
+  }
+  
+  .resource-button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  
+  footer {
+    background-color: #343a40; /* Set footer background color */
+    padding: 20px 0; /* Add padding to footer */
+    text-align: center; /* Center align footer content */
+    color: #fff; /* Set footer text color to white */
+  }
+  
